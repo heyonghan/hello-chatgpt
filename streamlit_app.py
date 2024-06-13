@@ -11,7 +11,7 @@ import os
 
 
 # Set your OpenAI API key as an environment variable
-os.environ["ZHIPUAI_API_KEY"] = "your-zhipuai-api-key"
+os.environ["ZHIPUAI_API_KEY"] = "d040453f81537fd7c1b3687ec810f25f.BTT6DTB5CVlS7sCf"
 
 def create_conversation_chain():
     vectorstore = Chroma(embedding_function=ZhipuAIEmbeddings())
