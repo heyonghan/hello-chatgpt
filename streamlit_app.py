@@ -9,6 +9,7 @@ from langchain_zhipu import ZhipuAIEmbeddings
 
 import os
 
+
 # Set your OpenAI API key as an environment variable
 os.environ["ZHIPUAI_API_KEY"] = "your-zhipuai-api-key"
 
